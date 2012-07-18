@@ -1,0 +1,1 @@
+library(ggplot2)source("1-load_data_frame_with_lat_lon.R")plotLatLon = function( ) {	dataFrame <- createDataFrame( )		p <- ggplot( dataFrame, aes( x = Lon, y = Lat ) )	p + geom_point( )}
