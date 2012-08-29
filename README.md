@@ -2,18 +2,16 @@ ampt - Animated Mapping Toochain
 ====
 Get ampt, bro!
 
-This project aims to provide some instructions and examples for building animated visualizations of spatiotemporal data. The following software/tools are required.
+This project aims to provide some instructions and examples for building animated visualizations of spatiotemporal data. 
 
 ## Examples
-A Day of Tweets  
-Video:   
+**A Day of Tweets** 
+Video: http://youtu.be/WpuYzFmEPrE?hd=1
 Code: https://github.com/jaredwinick/ampt/tree/master/examples/ampt-Tweets  
 
-## Dependencies
-* [Tilemill](http://mapbox.com/tilemill/)
-* [Python](http://www.python.org/)
-* [FFmpeg](http://ffmpeg.org/)
-* [ImageMagick](http://www.imagemagick.org/)
+**2011 Tornado and Hail Activity**
+Video: http://youtu.be/R3-4e9a56qM?hd=1
+Code: https://github.com/jaredwinick/ampt/tree/master/examples/ampt-Weather-2011  
 
 ## Instructions
 These instructions need more detail, but hopefully combined with the examples, it is enough to get you started.
