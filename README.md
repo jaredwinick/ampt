@@ -5,17 +5,18 @@ Get ampt, bro!
 This project aims to provide some instructions and examples for building animated visualizations of spatiotemporal data. The following software/tools are required.
 
 ## Examples
-A Day of Tweets
-Video: 
-Code: https://github.com/jaredwinick/ampt/tree/master/examples/ampt-Tweets
+A Day of Tweets  
+Video:   
+Code: https://github.com/jaredwinick/ampt/tree/master/examples/ampt-Tweets  
 
 ## Dependencies
-* (Tilemill)[http://mapbox.com/tilemill/]
-* (Python)[http://www.python.org/]
-* (FFmpeg)[http://ffmpeg.org/]
-* (ImageMagick)[http://www.imagemagick.org/]
+* [Tilemill](http://mapbox.com/tilemill/)
+* [Python](http://www.python.org/)
+* [FFmpeg](http://ffmpeg.org/)
+* [ImageMagick](http://www.imagemagick.org/)
 
 ## Instructions
+These instructions need more detail, but hopefully combined with the examples, it is enough to get you started.
 * Find some data that has both temporal and spatial features. 
 * Format your data in a CSV file with the a header identifying the columns. The temporal feature should be formatted as a unix timestamp and given a column header of *timestamp*. The spatial features should be a latitude and longitude with headers *lat* and *lon* respectively.
 * Create a project in Tilemill and add your CSV file as a layer.
