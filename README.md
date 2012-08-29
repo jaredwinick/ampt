@@ -1,3 +1,22 @@
 ampt - Animated Mapping Toochain
 ====
 Get ampt, bro!
+
+This project aims to provide some instructions and examples for building animated visualizations of spatiotemporal data. The following software/tools are required.
+
+##Dependencies
+*(Tilemill)[http://mapbox.com/tilemill/]
+*(Python)[http://www.python.org/]
+*(FFmpeg)[http://ffmpeg.org/]
+*(ImageMagick)[http://www.imagemagick.org/]
+
+#Instructions
+*Find some data that has both temporal and spatial features. 
+*Format your data in a CSV file with the a header identifying the columns. The temporal feature should be formatted as a unix timestamp and given a column header of *timestamp*. The spatial features should be a latitude and longitude with headers *lat* and *lon* respectively.
+*Create a project in Tilemill and add your CSV file as a layer.
+*Design your map.
+*Copy your Tilemill project directory
+*Copy the *get_ampt.py* script template to your new project directory
+*Update the copied *style.mss* to add in conditioning that will enable only data within a given timeframe to be shown for a video frame. Add *[timestamp>=%d][timestamp<%d]* next to the id controlling the styling for your data layer.
+*Edit the *project.mml* and change *style.mss* to *style_modified.mss*
+
