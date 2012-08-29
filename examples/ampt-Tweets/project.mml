@@ -58,7 +58,7 @@
       "id": "tweets",
       "class": "",
       "Datasource": {
-        "file": "/sdffsmedia/Iomega HDD/tweets/tweetsArchive_parsed_cut_half.csv",
+        "file": "tweets_05_27_2012_sampled.csv",
         "filesize_max": "0"
       },
       "srs-name": "autodetect",
