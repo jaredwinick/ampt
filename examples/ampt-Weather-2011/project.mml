@@ -1,0 +1,83 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style_modified.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "id": "10madmin1statesprovi",
+      "class": "states",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-1-states-provinces-lines.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "10madmin1statesprovi"
+    },
+    {
+      "geometry": "point",
+      "id": "2011hail",
+      "class": "",
+      "Datasource": {
+        "file": "2011_hail_converted.csv",
+        "id": "2011hail",
+        "srs": null
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011hail"
+    },
+    {
+      "geometry": "point",
+      "id": "2011torn",
+      "class": "",
+      "Datasource": {
+        "file": "2011_torn_converted.csv"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "2011torn"
+    },
+    {
+      "geometry": "polygon",
+      "id": "lakes",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-lakes.zip",
+        "id": "lakes",
+        "srs": null
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "lakes"
+    }
+  ],
+  "name": "weather for 2011",
+  "description": "tornados and hail in 2011"
+}
