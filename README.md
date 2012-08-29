@@ -5,11 +5,11 @@ Get ampt, bro!
 This project aims to provide some instructions and examples for building animated visualizations of spatiotemporal data. 
 
 ## Examples
-**A Day of Tweets** 
+**A Day of Tweets**  
 Video: http://youtu.be/WpuYzFmEPrE?hd=1  
 Code: https://github.com/jaredwinick/ampt/tree/master/examples/ampt-Tweets   
 
-**2011 Tornado and Hail Activity**
+**2011 Tornado and Hail Activity**  
 Video: http://youtu.be/R3-4e9a56qM?hd=1  
 Code: https://github.com/jaredwinick/ampt/tree/master/examples/ampt-Weather-2011  
 
