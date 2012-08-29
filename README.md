@@ -13,6 +13,12 @@ Code: https://github.com/jaredwinick/ampt/tree/master/examples/ampt-Tweets
 Video: http://youtu.be/R3-4e9a56qM?hd=1  
 Code: https://github.com/jaredwinick/ampt/tree/master/examples/ampt-Weather-2011  
 
+## Dependencies
+* [Tilemill](http://mapbox.com/tilemill/)
+* [Python](http://www.python.org/)
+* [FFmpeg](http://ffmpeg.org/)
+* [ImageMagick](http://www.imagemagick.org/)
+
 ## Instructions
 These instructions need more detail, but hopefully combined with the examples, it is enough to get you started.
 * Find some data that has both temporal and spatial features. 
