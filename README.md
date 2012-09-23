@@ -13,6 +13,9 @@ Code: https://github.com/jaredwinick/ampt/tree/master/examples/ampt-Tweets
 Video: http://youtu.be/R3-4e9a56qM?hd=1  
 Code: https://github.com/jaredwinick/ampt/tree/master/examples/ampt-Weather-2011  
 
+**A Week of Tweets - New York City
+Video: http://www.youtube.com/watch?v=bzWK4BgVYtQ&hd=1
+
 ## Dependencies
 * [Tilemill](http://mapbox.com/tilemill/)
 * [Python](http://www.python.org/)
